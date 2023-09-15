@@ -1,8 +1,8 @@
-public void setup() {
+void setup() {
   size(500, 500);
 }
 
-public void draw() {
+void draw() {
   background(192);
   fill(181, 88, 31); //brown parts
   noStroke();
