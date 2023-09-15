@@ -3,41 +3,32 @@ void setup() {
 }
 
 void draw() {
-  background(192);
-  fill(181, 88, 31); //brown parts
+  fill(181, 88, 31);
   noStroke();
-  ellipse(250, 250, 125, 160); //body
-  ellipse(245, 132.5, 105, 100); //head
-  translate(295,0);
-  ellipse(y/5-5, y*3, 38, 38); //ears 295, 98
-  translate(-295,0);
-  translate(193, 0);
-  ellipse(-y/5+5, y*3, 38, 38);
-  translate(-193, 0);
-  fill(250, 232, 212); //white parts
-  ellipse(250, 247, y*3, y*4); //inner body
-  ellipse(228, 120, 38, 38); //around the eyes
+  ellipse(250, 250, 125, 160);
+  ellipse(245, 132.5, 105, 100);
+  ellipse(295, 98, 38, 38);
+  ellipse(193, 98, 38, 38);
+  fill(250, 232, 212);
+  ellipse(250, 247, 103, 120);
+  ellipse(228, 120, 38, 38);
   ellipse(261, 120, 38, 38);
-  ellipse(245, 145, 63, 38); //around the mouth
-  translate(295,0);
-  ellipse(y/5-5, y*3, 26, 26); //inner ears
-  translate(-295, 0); 
-  translate(193, 0);
-  ellipse(-y/5+5, y*3, 26, 26);
-  translate(-193, 0);
-  fill(0); //black parts
-  ellipse(229.5, 121.5, 15, 15); //inner eyes
+  ellipse(245, 145, 63, 38);
+  ellipse(296, 98, 26, 26);
+  ellipse(192, 98, 26, 26);
+  fill(0);
+  ellipse(229.5, 121.5, 15, 15);
   ellipse(260, 121.5, 15, 15);
-  ellipse(245, 131.5, 7, 7); //nose
-  fill(256, 256, 256); //white parts
-  ellipse(232, 123.5, 5, 5); //inner inner eyes
+  ellipse(245, 131.5, 7, 7);
+  fill(256, 256, 256);
+  ellipse(232, 123.5, 5, 5);
   ellipse(261, 123.9, 5, 5);
   stroke(0.4);
-  fill(256, 0, 0); //red parts
-  triangle(270, 150, 245, 145, 220, 150); //inner mouth
+  fill(256, 0, 0);
+  triangle(270, 150, 245, 145, 220, 150);
   noStroke();
-  fill(181, 88, 31);//rotational limbs
-  translate(width/8, height/8);//arms and hands
+  fill(181, 88, 31);
+  translate(width/8, height/8);
   rotate(PI/3.5);
   ellipse(290, -100, 70, 20);
   fill(250, 232, 212);
@@ -51,7 +42,7 @@ void draw() {
   fill(250, 232, 212);
   ellipse(-65, -70, 38, 25);
   rotate(PI/3.5);
-  translate(width/-2, height/-2); //legs and feet
+  translate(width/-2, height/-2);
   translate(width/2, height/2);
   rotate(PI/2.1);
   fill(181, 88, 31);
