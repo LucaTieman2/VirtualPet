@@ -1,62 +1,6 @@
 void setup () {
-  size(500,500);
+  size(500, 500);
 }
-
 void draw () {
-  fill(181, 88, 31);
-  noStroke();
-  ellipse(250, 250, 125, 160);
-  ellipse(245, 132.5, 105, 100);
-  ellipse(295, 98, 38, 38);
-  ellipse(193, 98, 38, 38);
-  fill(250, 232, 212);
-  ellipse(250, 247, 103, 120);
-  ellipse(228, 120, 38, 38);
-  ellipse(261, 120, 38, 38);
-  ellipse(245, 145, 63, 38);
-  ellipse(296, 98, 26, 26);
-  ellipse(192, 98, 26, 26);
-  fill(0);
-  ellipse(229.5, 121.5, 15, 15);
-  ellipse(260, 121.5, 15, 15);
-  ellipse(245, 131.5, 7, 7);
-  fill(256, 256, 256);
-  ellipse(232, 123.5, 5, 5);
-  ellipse(261, 123.9, 5, 5);
-  stroke(0.4);
-  fill(256, 0, 0);
-  triangle(270, 150, 245, 145, 220, 150);
-  noStroke();
-  fill(181, 88, 31);
-  translate(width/8, height/8);
-  rotate(PI/3.5);
-  ellipse(290, -100, 70, 20);
-  fill(250, 232, 212);
-  ellipse(325, -100, 38, 25);
-  rotate(PI/-3.5);
-  translate(width/-8, height/-8);
-  translate(width/2, height/2);
-  rotate(PI/-3.5);
-  fill(181, 88, 31);
-  ellipse(-30, -70, 70, 20);
-  fill(250, 232, 212);
-  ellipse(-65, -70, 38, 25);
-  rotate(PI/3.5);
-  translate(width/-2, height/-2);
-  translate(width/2, height/2);
-  rotate(PI/2.1);
-  fill(181, 88, 31);
-  rect(65, -30, 35, 12);
-  rotate(PI/-2.1);
-  translate(width/-2, height/-2);
-  fill(250, 232, 212);
-  ellipse(290, 350, 38, 25);
-  translate(width/3, height/3);
-  rotate(PI/-2.1);
-  fill(181, 88, 31);
-  rect(-185, 65, 40, 12);
-  rotate(PI/2.1);
-  translate(width/-3, height/-3);
-  fill(250, 232, 212);
-  ellipse(215, 350, 38, 25);
+  ellipse(250, 250, 55, 55);
 }
